@@ -1,25 +1,9 @@
-# ZombieReborn
+# ZombieReborn-Lua
 
-An experimental implementation of Zombie Escape in Counter-Strike 2 using the Lua [VScript API](https://cs2.poggu.me/dumped-data/vscript-list).
+This was an experimental implementation of Zombie Escape in Counter-Strike 2 using the now disabled Lua [VScript API](https://cs2.poggu.me/dumped-data/vscript-list). It is no longer supported, see the [main repository](https://github.com/Source2ZE/ZombieReborn) for instructions on installing the currently supported ZR implementation.
 
-[Join our Discord](https://discord.gg/QsSGf9ZEVs) for development discussion and to keep up to date!
-
-## Installation
-
-You will first need to [install Metamod](https://www.sourcemm.net/downloads.php?branch=dev). Then, install [CS2Fixes](https://github.com/Source2ZE/CS2Fixes) for several required features and ZR integrations.
-
-Finally, copy both the `scripts` and `cfg` directories of ZombieReborn to your `game/csgo` folder. If you've already made changes to your server cfg's, you may want to just copy the contents of ours in instead.
-
-## Project Status?
-
-ZombieReborn currently sits in an awkward spot, Lua VScript was disabled in the Mirage update, pending likely removal/replacement by a new official scripting system called Pulse. Therefore, development has been generally paused. Contributions are still welcome in the mean time, but they should ideally be focused on fixes and improvements, rather than significant new features.
-
-We're currently planning a ZR rewrite in [Metamod within CS2Fixes](https://github.com/Source2ZE/CS2Fixes) or as a separate [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) plugin.
+Development of Lua ZR started immediately following CS2's limited test release in March 2023, making ZE the first custom gamemode in CS2. Lua ZR allowed for early testing of ZE during the limited test, allowing us to identify issues and playtest maps. It even spent a short period on several public servers following the workshop release, until better solutions arose.
 
 ## Documentation
 
 You can find the documentation of various Zombie:Reborn features [here](../../wiki/Documentation).
-
-## Current issues
-
-You can find the current issues with CS2 we'd like to report to Valve [here](../../wiki/CS2-Issues).
